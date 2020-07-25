@@ -11,7 +11,15 @@ const Child = () => {
     return(
         <div>
             <h1>This is a Child</h1>
-            <h1>Counter Value is : {counterValue}</h1>
+            <h1>Counter Value is : {counterValue[0]}</h1>
+
+            <button onClick = {
+                () => 
+                    {counterValue[1](++counterValue[0])}
+            }>
+                Increment
+            </button>
+
         </div>
     )
 }
