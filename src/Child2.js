@@ -3,9 +3,9 @@ import CounterReducer from './CounterReducer.js';
 
 const Child2 = () => {
 
-    let [state, dispatch] = useReducer(CounterReducer, 0)
+    let [state, dispatch] = useReducer(CounterReducer,0)
 
-    console.log(state)
+    // console.log(state)
 
     return(
         <div>
@@ -14,6 +14,11 @@ const Child2 = () => {
             <button onClick = {
                 () =>  dispatch('INCREMENT')
             }>Increment Reducer </button>
+            <button onClick={
+                () => dispatch('DECREMENT')
+            }>
+                Decrement Reducer
+            </button>
         </div>
     )
 }
