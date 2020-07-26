@@ -14,11 +14,11 @@ const Child2 = () => {
             <button onClick = {
                 () =>  dispatch('INCREMENT')
             }>Increment Reducer </button>
-            <button onClick={
+            {/* <button onClick={
                 () => dispatch('DECREMENT')
             }>
                 Decrement Reducer
-            </button>
+            </button> */}
         </div>
     )
 }
