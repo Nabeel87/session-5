@@ -14,7 +14,7 @@ function App() {
       <div>
         <Parent />
         <hr/>
-        <h1 align='center'>Thanks to Mr.Ijaz</h1>
+        <h1 align='center'>Thanks to Mr.Ejaz</h1>
       </div>
     </CounterContext.Provider>
   );
