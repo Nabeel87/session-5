@@ -10,7 +10,7 @@ const Child2 = () => {
     return(
         <div>
             <h1>This is a Secound Child using Counter Reducer</h1>
-            <h1>Value of Reducer : {state}</h1>
+            <h1>Value of Reducer  : {state}</h1>
             <button onClick = {
                 () =>  dispatch('INCREMENT')
             }>Increment Reducer </button>
