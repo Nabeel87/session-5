@@ -13,7 +13,8 @@ function App() {
     <CounterContext.Provider value={countState}>
       <div>
         <Parent />
-        <h1>hie</h1>
+        <hr/>
+        <h1 align='center'>Thanks to Mr.Ijaz</h1>
       </div>
     </CounterContext.Provider>
   );
